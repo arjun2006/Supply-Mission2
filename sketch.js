@@ -27,9 +27,9 @@ function setup() {
 	groundSprite=createSprite(width/2, height-35, width,10);
 	groundSprite.shapeColor=color(255)
 
-	wall1=createSprite(490,600,20,100);
-    wall2=createSprite(400,660,200,20);
-	wall3=createSprite(310,600,20,100);
+	wall1=createSprite(490,720,20,100);
+    wall2=createSprite(400,760,200,20);
+	wall3=createSprite(310,720,20,100);
 	wall1.shapeColor="red";
 	wall2.shapeColor="red";
 	wall3.shapeColor="red";
@@ -42,7 +42,7 @@ function setup() {
 	
 
 	//Create a Ground
-	ground = Bodies.rectangle(width/2, 650, width, 10 , {isStatic:true} );
+	ground = Bodies.rectangle(width/2, 760, width, 10 , {isStatic:true} );
  	World.add(world, ground);
 
 
